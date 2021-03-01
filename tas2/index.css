@@ -1,0 +1,29 @@
+body {
+    margin: 0;
+    padding: 0;
+
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.btn {
+    border: none;
+    outline: none;
+    margin: 5px 10px;
+    padding: 10px 30px;
+    border-radius: 3px;
+    background: rgb(64, 199, 129);
+    box-shadow: 0 -3px rgb(53, 167, 110);
+    transition: 0.2s;
+    color:white;
+}
+.btn:hover {
+    background: rgb(53, 167, 110);
+}
+
+.btn:active {
+    background: rgb(33, 147, 90);
+    box-shadow: 0 3px rgb(33, 147, 90);
+}
